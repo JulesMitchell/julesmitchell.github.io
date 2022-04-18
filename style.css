@@ -13,9 +13,9 @@ img {border-radius: 100%; display: block; margin-left: auto; margin-right: auto;
 /*style the top nav*/
 nav {position: fixed;}
 .topnav {position: fixed; top: 0; width: 100%; background-color:rgb(236, 236, 236)}
-.topnav a {float: right; display: block; text-align: center; padding: 14px 16px; text-decoration: none;}
-main {margin-top: 20px; background-color: rgb(134, 202, 197)}
-header {margin-top: 50px; background-color: rgb(134, 202, 197)}
+.topnav a {float: right; display: block; text-align: center; padding: 14px 16px; text-decoration:black;}
+main {margin-top: 20px; background-color: rgb(134, 202, 197);}
+header {margin-top: 50px; background-color: rgb(134, 202, 197);}
 body {background-color: rgb(134, 202, 197)}
 
 .topnav .icon {
