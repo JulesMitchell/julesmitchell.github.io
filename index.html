@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href = https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css>
+        <meta name="viewport" content="width=device-width, user-scalable=no">
+        <link href="./style.css" type="text/css" rel="stylesheet">
+        <title>
+            Jules Mitchell's Portfolio
+        </title>
+    </head>
+        <body>
+            <header>
+            <nav class="topnav" id="portfolioTopnav"> <!--This is a navigation element-->
+                <a href="#about">About</a>
+                <a href="#skills">Skills</a>
+                <a href="#accomplishments">Accomplishments</a>
+                <a href="#contact">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="openMenu()"> <i class="fa fa-bars"></i></a>
+            </nav>     
+            <!--This is the first heading of my portfolio-->
+                <h1>Jules Mitchell</h1>
+            </header>
+            <!--This is a section about me-->
+            <main>
+            <div id="aboutsection">
+                <figure>
+                <a href="https://www.linkedin.com/in/jules-mitchell-1b2b45158/" target="_blank">
+                <img src="My.Image.JPG" alt="A portrait photo of Jules Mitchell" width="200" height="200"/></a>
+                </figure>
+                
+                <h2 id="about", class="heading uppercase">About</h2>
+                <p>I am a first year PhD student at the Thompson Institute, Sunshine Coast. My thesis will investigate the <em>safety and
+                    tolerability</em> of oral low dose ketamine and zinc supplementation in people living with Anorexia Nervosa. Both ketamine
+                    and zinc target the <strong>NMDA receptor</strong>; influencing synaptic plasticity, and this is associated with therapeutic effects
+                    in depression and suicidality. My primary interest is in investigating the changes in brain neurotransmitters, 
+                    including glutamate and GABA, using magnetic resonance spectroscopy and the association they have with changes in behavioural
+                    and cognitive symptoms. Additionally, blood biomarkers of central cellular regulators of metabolism and synaptic plasticity
+                    (SIRT1 and mTOR) will be measured to ascertain the cellular pathways altered by ketamine and zinc in Anorexia Nervosa. 
+                </p>
+                <br>
+                <!--This is a section about my different skills-->
+                <h3 id="Skills">Skills</h3>
+                <h4>Research Skills</h4>
+                    <ul class="list">
+                        <li>Scoping and systematic review design and writing</li>
+                        <li>Data cleaning and statistical analysis</li>
+                        <li>Clinical trial development, planning and implementation</li>
+                        <li>Ethics protocol design and registration</li>
+                    </ul>
+                <h4 >Communication Skills</h4>
+                    <ul class="list">
+                        <li>Clarity and concision</li>
+                        <li>Facilitation of a collaborative environment</li>
+                        <li>Openness and diplomacy</li>
+                    </ul> 
+                <h4>Technical Skills</h4>
+                    <ul class="list">
+                        <li>SPSS data analysis</li>
+                        <li>Blood sample processing and ELISA analysis</li>
+                        <li>Data management</li>
+                    </ul>
+            </div>
+            <!--This is a section about my academic and research accomplishments-->
+            <div id="accomplishmentsection">
+                <h2 id="Accomplishments">Accomplishments</h2>
+                <table>
+                    <tr>
+                        <th scope="col">Publications</th>
+                        <th scope="col">Awards</th>
+                        <th scope="col"> Presentations</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <ul>
+                                 <li><a href="https://link.springer.com/article/10.1007/s40520-022-02079-y" target="_blank">Fien et al. (2022).
+                                    Characteristics of communinity-based exercise programs for community-dwelling older adults in rural/
+                                    regional areas: a scoping review </a></li><br>
+                                    <li>Mitchell et al. (2022). Ketamine and Zinc: Amelioration of Anorexia Nervosa via Dual Modulation of the NMDA Receptor (Unpublished)</li>  
+                            </ul>
+                       </td>
+                        <td>University of New England: Vice-Chancellor's Academic Scolar Award (GPA > 6.75)</td>
+                        <td>None to date</td>
+                    </tr>
+                </table>
+
+                <h3>Coding Examples</h3>
+                <a href="quiz.html" target="_blank">Take the Portfolio Quiz!</a>
+            </div>
+            <!--This is a section containing my contact details and links to relevant research profiles-->
+            <div id="contactsection">
+                <h2 id="Contact" class="contactform">Contact</h2>
+                <a href="https://www.linkedin.com/in/jules-mitchell-1b2b45158/" target="_blank">LinkedIn</a>
+                <br><br>
+                <form>
+                    <label for="name*">Name*:</label>
+                    <br>
+                    <input type="text" name="name*" required>
+                    <br><br>
+                    <label for="email">*Email</label>
+                    <br>
+                    <input type="text" name="email" id="email" required pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+                    <br><br>
+                    <label for="mobile">Mobile (optional)</label>
+                    <br>
+                    <input type="tel" name="mobile" id="mobile" pattern="[0-9]{10,16}">
+                    <br>
+                    <br>
+                    <label for="textarea*" >Leave your message below*:</label>
+                    <br><br>
+                    <textarea id="message" name="message" rows="5" cols="30" required></textarea>
+                    <br><br>
+                    <input type="submit" value="Send">
+                </form>
+            </div>
+        </main>
+        <script src="./nav.js"></script>
+        </body>
+</html>

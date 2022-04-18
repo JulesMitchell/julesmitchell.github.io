@@ -1,0 +1,10 @@
+.question{
+    font-weight: bold;
+  }
+  .answers {
+    margin-bottom: 20px;
+  }
+  .answers label{
+    display: block;
+  }
+body {background-color: lightskyblue}
